@@ -19,10 +19,21 @@ Stremio addon for torrent streaming. Searches multiple torrent indexers and retu
 
 ## Installation
 
-### Hosted version
-1. Go to the [configure page](https://your-domain.vercel.app/configure)
-2. Set your preferences
-3. Click "Install in Stremio"
+### 🐳 Docker Deployment
+
+**Prerequisites**
+* [Docker](https://docs.docker.com/get-docker/) installed
+* [Docker Compose](https://docs.docker.com/compose/install/) installed
+
+**Running with Docker Compose**
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/RnDCustomz/Flix-finder.git](https://github.com/RnDCustomz/Flix-finder.git)
+   cd Flix-finder
+
+**Access configuration UI**
+http://hostip:7000/configure
 
 ### Self-host on Node.js (regular hosting / cPanel)
 1. Upload this project to your Node.js app root.
